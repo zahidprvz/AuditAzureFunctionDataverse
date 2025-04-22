@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditDataverseFunctionApp", "AuditDataverseFunctionApp\AuditDataverseFunctionApp.csproj", "{D865CB95-7C18-44DE-E276-FCE18A013614}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuditDataverseFunctionApp (1)", "AuditDataverseFunctionApp (1)", "{4039C9E8-E8B9-37AA-5F40-077568BD2A1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "obj", "obj", "{6474FC57-CB13-98AA-1F0C-550C85EEB8E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{78A212D3-A5A5-D646-59FB-A0A9EDBDE3CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{E99A003D-167B-C74F-058B-079D3B5CF6A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerExtensions", "AuditDataverseFunctionApp\obj\Debug\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{8F5B53F8-7456-3C75-96C8-CDBE0ED9457E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{A7EED953-880F-54F9-F882-7186ED7C59ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{7D075E7B-5C59-5950-3745-80F52EDEF573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerExtensions", "AuditDataverseFunctionApp\obj\Release\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{060DD184-70A8-54F4-FBB8-6C8AB0A1D5F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D865CB95-7C18-44DE-E276-FCE18A013614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D865CB95-7C18-44DE-E276-FCE18A013614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D865CB95-7C18-44DE-E276-FCE18A013614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D865CB95-7C18-44DE-E276-FCE18A013614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F5B53F8-7456-3C75-96C8-CDBE0ED9457E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5B53F8-7456-3C75-96C8-CDBE0ED9457E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5B53F8-7456-3C75-96C8-CDBE0ED9457E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5B53F8-7456-3C75-96C8-CDBE0ED9457E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{060DD184-70A8-54F4-FBB8-6C8AB0A1D5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060DD184-70A8-54F4-FBB8-6C8AB0A1D5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060DD184-70A8-54F4-FBB8-6C8AB0A1D5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060DD184-70A8-54F4-FBB8-6C8AB0A1D5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6474FC57-CB13-98AA-1F0C-550C85EEB8E8} = {4039C9E8-E8B9-37AA-5F40-077568BD2A1B}
+		{78A212D3-A5A5-D646-59FB-A0A9EDBDE3CC} = {6474FC57-CB13-98AA-1F0C-550C85EEB8E8}
+		{E99A003D-167B-C74F-058B-079D3B5CF6A1} = {78A212D3-A5A5-D646-59FB-A0A9EDBDE3CC}
+		{8F5B53F8-7456-3C75-96C8-CDBE0ED9457E} = {E99A003D-167B-C74F-058B-079D3B5CF6A1}
+		{A7EED953-880F-54F9-F882-7186ED7C59ED} = {6474FC57-CB13-98AA-1F0C-550C85EEB8E8}
+		{7D075E7B-5C59-5950-3745-80F52EDEF573} = {A7EED953-880F-54F9-F882-7186ED7C59ED}
+		{060DD184-70A8-54F4-FBB8-6C8AB0A1D5F4} = {7D075E7B-5C59-5950-3745-80F52EDEF573}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7D83C38-490A-4564-AE9F-C613F4DC184A}
+	EndGlobalSection
+EndGlobal
